@@ -1,0 +1,37 @@
+== Filebin.ca Code ==
+
+This is a slightly modified version from the production
+version of http://filebin.ca
+
+== Requirements ==
+
+* PHP Modules: PDO, pdo-pgsql, hash, uploadprogress
+* PHP PEAR Modules: Auth/OpenID
+
+== Install ==
+
+Basic steps:
+
+1) Create a PostgreSQL database to store all the metadata.
+  a) Import the filebin.sql file to create the needed tables
+
+2) Modify filebin.inc.php with the appropriate database
+   configuration information.
+
+3) Setup a directory writable by the web server to store the
+   files. Adjust the filebin.inc.php with this path.
+
+4) Enjoy.
+
+== License ==
+
+Please read the included LICENSE file. By use of this software,
+you agree to the terms of the license.
+
+== Author ==
+
+This software is written by Stephen Olesen, aka Slepp.
+You can find more information about Slepp's projects at
+http://slepp.ca/
+
+Thanks!

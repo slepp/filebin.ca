@@ -1,0 +1,16 @@
+html, body { font-family: 'Arial', sans-serif; margin: 0px; padding: 0px; font-size: 12pt; }
+h1 { text-align: center; background: #dde; margin:0px; margin-bottom: 1em; border-bottom: 3px solid #ddf; font-size: 14pt; }
+h2 { text-align: center; background: #dde; margin:0px; margin-bottom: 1em; border-bottom: 3px solid #ddf; font-size: 12pt; }
+div.error { border: 1px solid red; background: #f0e5e5; font-size: 120%; color: red; text-align: center; padding: 1em; margin-left: auto; margin-right: auto; display: table; margin-bottom: 1em; }
+div.ok { border: 1px solid green; background: #e5f0e5; font-size: 120%; color: black; text-align: center; padding: 1em; margin-left: auto; margin-right: auto; display: table; margin-bottom: 1em; }
+a { color: blue; text-decoration: none; }
+a.faded { color: gray; text-decoration: underline; }
+a:hover { color: red; text-decoration: underline; }
+input.sub { border:2px solid black; background:#ffe0e0; }
+input.sub:hover { background: #e0ffe0; border: 2px solid #666; }
+div#footer { font-size: 80%; padding: 0.25em; }
+fieldset { -moz-border-radius: 8px; border-radius: 8px; }
+table.turls { margin-left: auto; margin-right: auto; text-align: left; }
+table.turls thead th { background: black; color: white; }
+table.turls thead th a { background: black; color: white; text-decoration: none; }
+table.turls thead th a:hover { background: black; color: white; text-decoration: underline; }
