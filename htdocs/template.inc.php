@@ -71,7 +71,7 @@ function mainForm($arr = null) {
         <div id="form" style="text-align:center">
         <fieldset style="width:80%;margin-left:auto;margin-right:auto;border:3px solid #ddd;background:#e0e0ff"><legend style="background:#c0c0ff;border-left:2px solid blue;border-right:2px solid blue;margin-bottom:1em;">Upload a File</legend>
             <p>Upload any file. Must be less than 50 megabytes. Files will be kept in a rotating pool of space, and may be removed at any time.</p>
-            <form method="post" action="/upload.php" enctype="multipart/form-data" onsubmit="submitHandling(this); return true;" target="target_upload">
+            <form method="post" action="upload.php" enctype="multipart/form-data" onsubmit="submitHandling(this); return true;" target="target_upload">
             <iframe id="target_upload" name="target_upload" src="" style="width:1px;height:1px;border:1px;display:none"></iframe>
             <input type="hidden" name="MAX_FILE_SIZE" value="62428800" />
             <input type="hidden" name="UPLOAD_IDENTIFIER" value="<?php print $uid ?>" />
